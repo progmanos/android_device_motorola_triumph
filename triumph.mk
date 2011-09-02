@@ -105,7 +105,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/motorola/triumph/modules/libra.ko:/system/lib/modules/libra.ko \
     device/motorola/triumph/modules/librasdioif.ko:/system/lib/modules/librasdioif.ko \
-    device/motorola/triumph/modules/libra_ftm.ko:/system/lib/modules/libra_ftm.ko \
+    device/motorola/triumph/modules/cpaccess.ko:/system/lib/modules/cpaccess.ko \
+    device/motorola/triumph/modules/gspca_main.ko:/system/lib/modules/gspca_main.ko \
+    device/motorola/triumph/modules/aes_generic.ko:/system/lib/modules/aes_generic.ko \
     device/motorola/triumph/prebuilt/etc/firmware/wlan/qcom_fw.bin:/system/etc/firmware/wlan/qcom_fw.bin \
     device/motorola/triumph/prebuilt/etc/firmware/wlan/qcom_wapi_fw.bin:/system/etc/firmware/wlan/qcom_wapi_fw.bin \
     device/motorola/triumph/prebuilt/etc/firmware/wlan/qcom_wlan_nv.bin:/system/etc/firmware/wlan/qcom_wlan_nv.bin \
